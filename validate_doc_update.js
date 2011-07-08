@@ -23,4 +23,9 @@ function (newDoc, oldDoc, userCtx) {
 	require('title');
 	require('type');
 	restrict('type', ['comic', 'album']);
+	
+	if (newDoc.type == 'album') {
+		require('index', 'Album requires an index');
+		require('fromComic', 'Album requires a fromComicon');
+	}
 }
