@@ -1,0 +1,17 @@
+body {
+	margin: 5px;
+	color: #cccccc;
+}
+
+h1 {
+	font-style: italic;
+}
+
+p {
+	background-color: #333333;
+	padding: 5ex 3em;
+}
+
+em {
+	font-size: larger;	
+}
